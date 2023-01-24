@@ -1,0 +1,39 @@
+.title {
+    animation: fadeInUp;
+    /* referring directly to the animation's @keyframe declaration */
+
+    animation-duration: 1s;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: black;
+        font-size: 40px;
+        padding: 20px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+.container_comentarios_fb {
+
+    animation: slideInUp;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    width: 100%;
+    border-radius: 30px;
+    margin: 10px;
+    max-width: 1000px;
+    background-color: rgb(245, 243, 243);
+}
+
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
